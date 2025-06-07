@@ -1,0 +1,31 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+lib64/
+include/
+bin/
+share/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+
+# Environment variables
+.env
+
+# IDE specific files (VS Code)
+.vscode/
+
+# Editor Swap files
+*.swp
+*.swo
+
+# macOS specific (if you're on a Mac)
+.DS_Store
